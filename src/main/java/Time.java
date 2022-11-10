@@ -1,15 +1,10 @@
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
-import java.util.Random;
+import java.util.*;
 
 public class Time {
     public static void main(String[] args) {
+        List<Integer> list = new ArrayList<>(List.of(1,3,4,0,8,2,34,7));
 
-        for (int i = 0; i < 10; i++) {
-            System.out.println(new Random().nextInt());
-        }
-
-
+        Collections.shuffle(list);
+        System.out.println(list);
     }
 }
