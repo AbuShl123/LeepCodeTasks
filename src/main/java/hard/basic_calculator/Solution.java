@@ -7,6 +7,7 @@ public class Solution {
         System.out.println(solve.calculate(exp));
     }
 
+    // TODO: calculate the string - hard task
     public int calculate(String s) {
         StringBuilder sb = new StringBuilder(s.replace(" ", ""));
         if (!sb.toString().startsWith("-")) {
